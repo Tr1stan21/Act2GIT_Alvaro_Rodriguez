@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+header h1 {
+    color: green;
+    margin: 0;
+}
+
+header p {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: green;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover en los enlaces del menú de navegación */
+nav ul li a:hover {
+    color: darkgreen; 
+    transition: color 0.3s ease;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+main section p {
+    font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
