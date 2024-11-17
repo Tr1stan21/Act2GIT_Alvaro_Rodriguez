@@ -60,6 +60,11 @@ main section p {
     font-size: 16px;
 }
 
+img{
+    height: 25vh;
+    width: 20vw;
+}
+
 /* Pie de página */
 footer {
     background-color: black;
