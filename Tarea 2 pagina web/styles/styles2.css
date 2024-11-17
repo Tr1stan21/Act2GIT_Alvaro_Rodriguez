@@ -1,0 +1,63 @@
+/*Aquí le doy condiciones a la tabla*/
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+/*Y aquí dentro de la tabla le doy condiciones a cada th y td, que tengan un borde, el texto alineado, el tipo de letra*/
+th, td {
+    text-align: center;
+    border: 5px solid #ebcc4e;
+    padding: 5px;
+    font-family: 'Spicy Rice', sans-serif;
+}
+/*Con este td:hover lo que hago es cuando el cursor se encuentra encima de una celda td se cambie la escala de la celda para resaltarla*/
+td:hover {
+    transform: scale(1.2);
+}
+/*A partir de aquí empiezan todas las clases con sus respectivos colores de fondo*/
+.programacion{
+    background-color: #0B7072;
+}
+
+.basedatos{
+    background-color: #F0B66B;
+}
+
+.entornos{
+    background-color: #EFE081;
+}
+
+.lenguaje{
+    background-color: rgb(107, 107, 187);
+}
+
+.fol{
+    background-color: pink;
+}
+
+.sistemas{
+    background-color: rgb(164, 88, 164);
+}
+
+.digital{
+    background-color: #87C19B;
+}
+
+.sostenibilidad{
+    background-color: cadetblue;
+}
+
+.recreo{
+    text-align: center;
+    background-color: #F1713F;
+    letter-spacing: 65px;
+    font-size: 40px;
+}
+
+.hour{
+    background-color: #4ba846;
+}
+
+.days{
+    background-color: #4ba846;
+}
